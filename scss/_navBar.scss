@@ -1,0 +1,41 @@
+
+.header{
+
+	background-color: $colorPrincipal;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+     margin: 0 0 16px 0;
+
+    .nav-bar{
+    	display: flex;
+    	flex-wrap: wrap;
+    		ul{
+    			display: flex;
+    			flex-wrap: wrap;
+
+    				li{
+    					display: flex;
+    					color:$colorTerciario;
+    					text-decoration: none;
+
+    						a{
+    							font-family: 'Nunito', sans-serif;
+    							text-decoration: none;
+							    font-size: 16px;
+							    color:$colorTerciario;
+							    cursor: pointer;
+							    padding: 16px;
+								    
+								    &:hover{
+								    	border-bottom: 2px solid yellow;
+	    								font-weight: 500;
+								    }
+    						}
+    				}
+    		}
+    }
+
+
+}

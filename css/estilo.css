@@ -1,0 +1,99 @@
+.header {
+  background-color: #673398;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin: 0 0 16px 0; }
+  .header .nav-bar {
+    display: flex;
+    flex-wrap: wrap; }
+    .header .nav-bar ul {
+      display: flex;
+      flex-wrap: wrap; }
+      .header .nav-bar ul li {
+        display: flex;
+        color: #fff;
+        text-decoration: none; }
+        .header .nav-bar ul li a {
+          font-family: 'Nunito', sans-serif;
+          text-decoration: none;
+          font-size: 16px;
+          color: #fff;
+          cursor: pointer;
+          padding: 16px; }
+          .header .nav-bar ul li a:hover {
+            border-bottom: 2px solid yellow;
+            font-weight: 500; }
+
+.container-grid {
+  display: grid;
+  grid-template-areas: "header" "main" "section" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 132px auto auto auto; }
+
+.header {
+  grid-area: header; }
+
+.main-home {
+  grid-area: main; }
+
+.testimonios {
+  grid-area: section; }
+
+#footer {
+  grid-area: footer; }
+
+h1, h2, h3 {
+  color: #673398; }
+
+p {
+  color: black; }
+
+#footer {
+  background-color: #673398;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 16px;
+  margin-top: 16px; }
+  #footer .contactos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+    #footer .contactos .subtitulos {
+      font-family: 'Nunito', sans-serif;
+      font-size: 3rem;
+      font-weight: 200;
+      color: #fff;
+      text-align: center; }
+  #footer .alinear-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; }
+    #footer .alinear-footer .logo-foo img {
+      width: 100px;
+      height: 100px; }
+    #footer .alinear-footer .contactos-nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      font-family: 'Nunito', sans-serif;
+      flex-wrap: wrap; }
+      #footer .alinear-footer .contactos-nav .icono {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 8px;
+        text-decoration: none;
+        color: #fff; }
+        #footer .alinear-footer .contactos-nav .icono img {
+          width: 25px;
+          height: 25px; }

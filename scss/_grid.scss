@@ -1,0 +1,30 @@
+.container-grid{
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "section"
+        "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 132px auto auto auto;
+
+    }
+
+.header{
+    grid-area: header;
+    
+    }
+
+.main-home{
+    grid-area: main;
+    
+    }
+
+.testimonios{
+    grid-area: section;
+    
+    }
+
+#footer{
+	grid-area: footer;
+}
